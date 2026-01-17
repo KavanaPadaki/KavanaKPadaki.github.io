@@ -1,189 +1,454 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Kavana K Padaki Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kavana Padaki – Data Scientist</title>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<style>
+:root {
+  --bg: #000;
+  --bg-soft: #020617;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --border: #1f2937;
+  --card-bg: rgba(255,255,255,0.04);
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Kavana K Padaki Portfolio<br />
-						</h1>
-						<p>Data Analyst well versed in Python, SQL, Tableau, Web Scarping <a href="https://www.linkedin.com/in/kavana-k-padaki-36a8b9247/">@KavanaKPadaki</a>.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+  /* Accent — dark mode */
+  --accent: #38bdf8;                 /* soft cyan */
+  --accent-soft: rgba(56,189,248,0.35);
+}
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Kavana K Padaki</a> 
-					</header> 
+body.light {
+  --bg: #ffffff;
+  --bg-soft: #f8fafc;
+  --text: #020617;
+  --muted: #475569;
+  --border: #e5e7eb;
+  --card-bg: #ffffff;
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-						
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/kavana-k-padaki-36a8b9247/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/KavanaPadaki"target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+  /* Accent — light mode */
+  --accent: #2563eb;                 /* restrained blue */
+  --accent-soft: rgba(37,99,235,0.25);
+}
 
-				<!-- Main -->
-					<div id="main">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
 
-									<h2><a href="https://github.com/KavanaPadaki/Python-SQL-Tableau-based-projects/blob/main/Housing-DataCleaning%20in%20SQL.sql"target= "_blank">Data Cleaning in SQL<br />
-									</a></h2>
-									<p>In this project we take raw housing data and transform
-										it in SQL Server to make it more usable for analysis.</p>
-								</header>
-								<a href="https://github.com/KavanaPadaki/Python-SQL-Tableau-based-projects/blob/main/Housing-DataCleaning%20in%20SQL.sql"target= "_blank" class="image main"><img src="images/Housing2.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/KavanaPadaki/Python-SQL-Tableau-based-projects/blob/main/Housing-DataCleaning%20in%20SQL.sql"target= "_blank" class="button large">View project</a></li>
-								</ul>
-							</article>
+* { box-sizing: border-box; }
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-									
-										<h2><a href="https://github.com/KavanaPadaki/Python-SQL-Tableau-based-projects/blob/main/Data_Exploration_in_SQL.sql"target= "_blank" >Covid-19 <br />
-										Data Exploration in SQL</a></h2>
-									</header>
-									<a href="https://github.com/KavanaPadaki/Python-SQL-Tableau-based-projects/blob/main/Data_Exploration_in_SQL.sql" target= "_blank" class="image fit"><img src="images/covid-cells.jpg" alt="" /></a>
-									<p> In this project we use SQL Server to explore global COVID 19 data.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/KavanaPadaki/Python-SQL-Tableau-based-projects/blob/main/Data_Exploration_in_SQL.sql"target= "_blank" class="button">View project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-									
-										<h2><a href="https://github.com/KavanaPadaki/Python-SQL-Tableau-based-projects/blob/main/Data_Correlation_with_Python.ipynb"target= "_blank" >Movie Data Correlation<br />
-										 Using Python</a></h2>
-									</header>
-									<a href="https://github.com/KavanaPadaki/Python-SQL-Tableau-based-projects/blob/main/Data_Correlation_with_Python.ipynb"target= "_blank" class="image fit"><img src="images/Movie-Templates-Featured.jpg" alt="" /></a>
-									<p>In this project we look at what variables effect the gross revenue from movies.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/KavanaPadaki/Python-SQL-Tableau-based-projects/blob/main/Data_Correlation_with_Python.ipynb"target= "_blank" class="button">View project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://public.tableau.com/app/profile/kavana.k.padaki5603/vizzes"target= "_blank">TABLEAU DASHBOARDS<br />
-										</a></h2>
-									</header>
-									<a href="https://public.tableau.com/app/profile/kavana.k.padaki5603/vizzes" target= "_blank"class="image fit"><img src="images/tab2.png" alt="" /></a>
-									<p>Tableau Dashboards for project on COVID 19</p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/kavana.k.padaki5603/vizzes" target= "_blank"class="button">View project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-									
-										<h2><a href="https://github.com/KavanaPadaki/Black-Friday-Sales-Analysis-Python/blob/main/Black_Friday_Sales_Analysis.ipynb"target= "_blank">Black Friday Sales <br />
-										Eda with Python</a></h2>
-									</header>
-									<a href="https://github.com/KavanaPadaki/Black-Friday-Sales-Analysis-Python/blob/main/Black_Friday_Sales_Analysis.ipynb"target= "_blank" class="image fit"><img src="images/blackFriday2.jpg" alt="" /></a>
-									<p>In this project we look at Various Visualizations on Black Friday Sales.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/KavanaPadaki/Black-Friday-Sales-Analysis-Python/blob/main/Black_Friday_Sales_Analysis.ipynb"target= "_blank" class="button">View project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/KavanaPadaki/Book-Scraping/blob/main/Book%20Scraping.ipynb" target= "_blank">Book Scraper With Python<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/KavanaPadaki/Book-Scraping/blob/main/Book%20Scraping.ipynb" target= "_blank"class="image fit"><img src="images/book.jpg" alt="" /></a>
-									<p>In this project we scrape data to get Price details, Availability, Rating using Beautiful Soup in Python.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/KavanaPadaki/Book-Scraping/blob/main/Book%20Scraping.ipynb" target= "_blank"class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/KavanaPadaki/Heart-Disease/blob/main/Heart_Disease_EDA.ipynb"target= "_blank">Heart Disease EDA<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/KavanaPadaki/Heart-Disease/blob/main/Heart_Disease_EDA.ipynb" target= "_blank"class="image fit"><img src="images/Heart.webp" alt="" /></a>
-									<p>In this project we create Visualizations to get better understanding of Heart Disease.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/KavanaPadaki/Heart-Disease/blob/main/Heart_Disease_EDA.ipynb" target= "_blank"class="button">View Project</a></li>
-									</ul>
-								</article>
-							</section>
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  background: radial-gradient(1200px 600px at top, var(--bg-soft), var(--bg));
+  color: var(--text);
+}
 
-						<!-- Footer -->
-							
+header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(8px);
+  background: rgba(0,0,0,0.6);
+  border-bottom: 1px solid var(--border);
+  z-index: 10;
+}
 
-				<!-- Footer -->
-					<footer id="footer">
-					
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Bangalore, Karnataka</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(+91) 1234567890</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">kavanakpadaki@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-					
-									<li><a href="https://www.linkedin.com/in/kavana-k-padaki-36a8b9247/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/KavanaPadaki"target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+.header-inner {
+  max-width: 1100px;
+  margin: auto;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+.header-links a {
+  color: var(--muted);
+  margin-left: 16px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
 
-			</div>
+.header-links a:hover {
+  color: var(--accent);
+}
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+button {
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  padding: 6px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 96px 24px;
+}
+
+section {
+  margin-bottom: 120px;
+  opacity: 0;
+  transform: translateY(24px);
+  transition: 0.6s ease;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h1 {
+  font-size: 4.2rem;
+  line-height: 1.05;
+  margin-bottom: 24px;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 2px;
+  background: var(--accent);
+  margin-top: 12px;
+}
+
+
+
+p {
+  color: var(--muted);
+  font-size: 1.4rem;
+  line-height: 1.7;
+  max-width: 720px;
+}
+
+/* ---------- HERO ---------- */
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.hero-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.hero-metric {
+  border-left: 2px solid var(--accent);
+  padding-left: 18px;
+}
+
+.hero-metric strong {
+  font-size: 1.4rem;
+}
+
+.hero-metric span {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* ---------- PROJECTS ---------- */
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 32px;
+}
+
+.card { perspective: 1200px; cursor: pointer; }
+
+.card-inner {
+  height: 280px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.7s;
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+.card-face {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  padding: 22px;
+  background: var(--card-bg);
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.card:hover .card-face,
+.card.flipped .card-face {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent-soft);
+}
+
+
+.card-face.front h3 {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+.card-face.front p {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.card-face.back {
+  transform: rotateY(180deg);
+}
+
+.card-face.back ul {
+  padding-left: 16px;
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.card-face.back li {
+  margin-bottom: 8px;
+}
+
+.card-links a {
+  font-size: 0.85rem;
+  margin-right: 14px;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.card-links a:hover {
+  color: var(--accent);
+}
+
+
+/* ---------- SKILLS ---------- */
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 32px;
+}
+
+.skill-box {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  background: var(--card-bg);
+}
+
+.skill-box:nth-child(1),
+.skill-box:nth-child(2) {
+  grid-column: span 2;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+  border-top: 1px solid var(--border);
+}
+
+.footer-links a {
+  color: var(--muted);
+  margin-left: 16px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover { color: var(--text); }
+.footer-inner {
+  max-width: 1100px;
+  margin: auto;
+  padding: 48px 24px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-inner">
+    <strong>Kavana Padaki</strong>
+    <div class="header-links">
+      <a href="mailto:kavanakpadaki@gmail.com">Email</a>
+      <a href="https://github.com/KavanaPadaki">GitHub</a>
+      <a href="https://linkedin.com/in/kavanakpadaki">LinkedIn</a>
+      <button onclick="toggleTheme()">Theme</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid">
+    <div>
+      <h1>Data Scientist<br>& ML Engineer</h1>
+      <p>
+        I build production-ready machine learning systems with a strong focus on
+        NLP, recommender systems, and real-world deployment.
+      </p>
+    </div>
+
+    <div class="hero-aside">
+      <div class="hero-metric">
+        <strong>6+</strong>
+        <span>Deployed ML Projects</span>
+      </div>
+      <div class="hero-metric">
+        <strong>End-to-End</strong>
+        <span>Model → API → UI</span>
+      </div>
+      <div class="hero-metric">
+        <strong>Production</strong>
+        <span>FastAPI · Docker · Streamlit</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+  <h2>Selected Projects</h2>
+  <p style="margin-bottom:32px;">
+    A selection of production-focused machine learning systems I’ve built and deployed.
+  </p>
+
+  <div class="projects">
+
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="card-inner">
+        <div class="card-face front">
+          <h3>Product Recommendation Engine</h3>
+          <p>Personalized ranking system.</p>
+        </div>
+        <div class="card-face back">
+          <ul>
+            <li>ALS collaborative filtering</li>
+            <li>MAP@K and Recall@K evaluation</li>
+            <li>FastAPI + Streamlit deployment</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://appuctrecommendationengine-2b9wcgguunq9zfnjangey7.streamlit.app/">Live</a>
+            <a href="https://github.com/KavanaPadaki/ProductRecommendationEngine">Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="card-inner">
+        <div class="card-face front">
+          <h3>Customer Lifetime Value</h3>
+          <p>Revenue forecasting ML.</p>
+        </div>
+        <div class="card-face back">
+          <ul>
+            <li>Regression on customer data</li>
+            <li>Containerized FastAPI service</li>
+            <li>Streamlit business UI</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://customerlifetimevalueprediction-optimization-dn5rgub64tqsqzf25.streamlit.app/">Live</a>
+            <a href="https://github.com/KavanaPadaki/Customer_Lifetime_Value_Prediction_-_Optimization">Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="card-inner">
+        <div class="card-face front">
+          <h3>IMDb Sentiment Analysis</h3>
+          <p>Transformer NLP system.</p>
+        </div>
+        <div class="card-face back">
+          <ul>
+            <li>DistilBERT fine-tuning</li>
+            <li>92% validation accuracy</li>
+            <li>Sub-200ms inference</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://sentimentiment-analysis-of-imdb-using-transformers-tjwdfh6l2ea.streamlit.app/">Live</a>
+            <a href="https://github.com/KavanaPadaki/Sentimentiment-Analysis-of-IMDB-using-Transformers">Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill-box"><h4>Machine Learning</h4><ul><li>NLP</li><li>Recommenders</li><li>Evaluation</li></ul></div>
+    <div class="skill-box"><h4>Engineering</h4><ul><li>FastAPI</li><li>Docker</li><li>REST</li></ul></div>
+    <div class="skill-box"><h4>Data</h4><ul><li>Pandas</li><li>SQL</li><li>Feature Eng.</li></ul></div>
+    <div class="skill-box"><h4>Deployment</h4><ul><li>Streamlit</li><li>CI/CD</li><li>Cloud</li></ul></div>
+    <div class="skill-box"><h4>Programming</h4><ul><li>Python</li><li>Java</li><li>JS</li></ul></div>
+    <div class="skill-box"><h4>Practices</h4><ul><li>Agile</li><li>SSDLC</li><li>Azure DevOps</li></ul></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section>
+  <h2>Experience</h2>
+  <p>
+    Application Developer at Cognizant (Hyderabad), working on enterprise systems,
+    automation pipelines, backend optimization, and Agile delivery.
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>© 2026 Kavana Padaki</span>
+    <div class="header-links">
+      <a href="mailto:kavanakpadaki@gmail.com">Email</a>
+      <a href="https://github.com/KavanaPadaki">GitHub</a>
+      <a href="https://linkedin.com/in/kavanakpadaki">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+const sections = document.querySelectorAll("section");
+const reveal = () =>
+  sections.forEach(s =>
+    s.getBoundingClientRect().top < window.innerHeight - 100 &&
+    s.classList.add("visible")
+  );
+window.addEventListener("scroll", reveal);
+reveal();
+
+function toggleTheme() {
+  document.body.classList.toggle("light");
+}
+</script>
+
+</body>
 </html>
